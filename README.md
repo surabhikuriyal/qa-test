@@ -1,5 +1,8 @@
 # qa-test
 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+# test.py
+
 This project demonstrates a simple frontend-backend communication setup deployed on Kubernetes. It consists of two services:
 - Frontend Service: A Node.js application that displays a greeting message fetched from the backend.
 - Backend Service: A Python Flask application that provides the greeting message.
@@ -22,3 +25,20 @@ To run the automated tests, follow these steps:
 
 
 This script will attempt to connect to the backend service and retrieve the greeting message.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# system_health_monitoring_script.sh
+
+Script that monitors the health of a Linux system. It should check CPU usage, memory usage, disk space, and running processes. 
+If any of these metrics exceed predefined thresholds (e.g., CPU usage > 80%), the script should send an alert to the console or a log file.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# application_health_checker.sh
+
+Script that can check the uptime of an application and determine if it is functioning correctly or not. 
+The script accurately assess the application's status by checking HTTP status codes. It should be able to detect if the application is 'up', meaning it is functioning correctly, 
+or 'down', indicating that it is unavailable or not responding.
